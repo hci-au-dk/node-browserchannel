@@ -15,8 +15,8 @@
 
 .PHONY: clean, all
 
-CLOSURE_DIR = ../closure-library
-CLOSURE_COMPILER = ../closure-library/compiler.jar
+CLOSURE_DIR = $(DEVELDIR)/closure-library
+CLOSURE_COMPILER = $(CLOSURE_DIR)/compiler.jar
 
 CLOSURE_BUILDER = $(CLOSURE_DIR)/closure/bin/build/closurebuilder.py
 
